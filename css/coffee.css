@@ -1,0 +1,108 @@
+
+html {
+  border-top: 4px solid;
+  border-color: 'black';
+
+}
+
+body {
+  margin: 0px;
+}
+
+div {
+  /*border: 1px solid;*/
+}
+
+#map { 
+  height: 100%;
+  width: 100%;
+  /*border: 5px solid;*/
+  /*border-color: red;  */
+  /*padding: 0px;*/
+  margin: 0px auto;
+}
+
+.info {
+  padding: 6px 8px;
+  font-family: 'Open Sans', Helvetica Neue;
+  font-size: 16pt;
+  /*font: 14px/16px Arial, Helvetica, sans-serif;*/
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  /*border-radius: 5px;*/
+  /*position: absolute*/
+  min-width: 400px;
+  height: 80px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  visibility: hidden;
+}
+
+.highlighted-cell {
+  fill-opacity: 0.8;
+  weight: 2;
+}
+
+#name, #address {
+  /*width: 500px;*/
+}
+
+
+#name {
+  font-size: 16pt;
+}
+
+#address, #reviews {
+  font-size: 12pt;
+}
+
+#rating_image, #reviews {
+  padding-right: 10px;
+  float: left;
+}
+
+
+#rating_image {
+    width: 84px;
+    height: 17px;
+    float: left;
+    margin-top: 5px;   
+}
+
+.leaflet-control-styles-title {
+  text-align: center;
+}
+
+
+.leaflet-control-styles {
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.4);
+  display: block;
+  position: relative;
+  background: rgba(255,255,255,0.8);
+  padding: 6px;
+
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+
+}
+
+.leaflet-control-styles-list {
+  margin-bottom: 0px;
+}
+
+.leaflet-control-styles label {
+  display: block;
+  }
+
+.leaflet-control-styles-selector {
+  margin-top: 2px;
+  position: relative;
+  top: 1px;
+}
+
+.leaflet-control-layers label {
+  display: block;
+}
+
